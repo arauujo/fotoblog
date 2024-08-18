@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site de fotoblog.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>Fotoblog</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" sizes="16x16" href="./assets/favicon-16x16.png">
+  <link rel="icon" sizes="32x32" href="./assets/favicon-32x32.png">        
+  <link rel="icon" sizes="192x192" href="./assets/favicon-192x192.png">
+  <link rel="icon" sizes="512x512" href="./assets/favicon-512x512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./style.css">  
+</head>
+<body>
+  <div id="app">
+    <header class="container">
+      <nav>
+        <img class="logo" src="./assets/camera.svg" alt="Imagem da logomarca">
+
+        <ul>
+          <li>Home</li>
+          <li class="active">Galeria</li>
+        </ul>
+      </nav>
+
+      <form>
+        <div class="input-wrapper">
+          <label for="search">Pesquise por imagens e coleções</label>
+          <input id="search" type="text" placeholder="Pesquise por imagens e coleções">
+        </div>
+      </form>
+
+      <img class="avatar" src="https://randomuser.me/api/portraits/men/21.jpg" alt="Imagem de um homem.">
+    </header>
+    <main>
+      <div class="container">
+        <h1>Galeria</h1>
+
+        <section class="gallery">
+          <figure class="item">
+            <img src="./assets/figure01.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>Workspace elétrica</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay: 600ms">
+            <img src="./assets/figure02.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>Dark and red</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay: 800ms">
+            <img src="./assets/figure03.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>Organização e grids</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay: 1s">
+            <img src="./assets/figure04.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>Colméia</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay: 1.2s">
+            <img src="./assets/figure05.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>Setup de escritor</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay: 1.4s">
+            <img src="./assets/figure06.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>Ergonomia e cores</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay: 1.6s">
+            <img src="./assets/figure07.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>Show de luzes</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay: 1.8s">
+            <img src="./assets/figure08.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>Deep purple</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay: 2s">
+            <img src="./assets/figure09.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>Multi-Screen</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+        </section>
+      </div>
+    </main>
+    <footer class="container">
+      <p>© 2023 - Wesley Araujo</p>
+    </footer>
+  </div>
+</body>
+</html>
